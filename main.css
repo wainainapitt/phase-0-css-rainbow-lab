@@ -1,4 +1,8 @@
 div {
+
+ #sets red 
+    border-top-color: #f00;
+
   
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
@@ -9,41 +13,4 @@ div {
   border-left-color: transparent; /* these remove the color from the left side */
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
-
- 
-    padding: 25px;
-    
-    text-align: center;
-    border: thin solid black;
-    color: white;
-  }
-  
-  .red {
-    background-color: red;
-  }
-  
-  .orange {
-    background-color: orange;
-  }
-  
-  .yellow {
-    background-color: yellow;
-  }
-  
-  .green {
-    background-color: #00ff00;
-  }
-  
-  .blue {
-    background-color: blue;
-  }
-  
-  .violet {
-    background-color: purple;
-  }
-  
-  
-  
-  
-
-
+}
